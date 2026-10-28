@@ -14,6 +14,7 @@ Last updated: 28 October 2026
 - **Your work lives on your phone.** Your songs, voice notes, lyrics, gigs, contacts, photos and everything else you put into Roadie are stored on your phone, not on our servers. We can't see them.
 - **Backups go where you choose:** your own iCloud, or a backup file you save yourself.
 - **Roadie Assistant is off unless you turn it on.** When it's on, and only when you tap one of its buttons, Roadie sends a small, listed set of details to Anthropic, the company behind the AI, to write a draft for you.
+- **Testing Roadie?** Feedback you send from inside Roadie comes to us, and only when you tap Send.
 - **No ads, no tracking, no analytics, and we never sell anything about you.**
 
 ## Who we are
@@ -73,6 +74,26 @@ Roadie Assistant writes drafts for you: a plan for your week, posts about your g
 
 During the beta there's nothing to buy, so nothing is collected. When subscriptions start, payments will be handled by Apple (App Store) or Google (Play Store), and we'll never see your card details. This section will be updated before then to cover the service that tells Roadie whether your subscription is active.
 
+## Beta feedback
+
+While Roadie is being tested, testers can tell us how it's going from inside Roadie (Test Roadie, the ? on each screen, and Settings). **Nothing is sent unless you tap Send.**
+
+**What's sent:**
+
+- The name you give us for your feedback (asked once).
+- Worked, Problem or Idea, and the note you type.
+- A screenshot, if you add one. It shows whatever was on your screen, so have a look before you add it.
+- Which item on the test list or which screen it's about, Roadie's version, and your phone's model and system version.
+- The same **random ID** Roadie Assistant uses, so we can see which notes came from the same phone and limit how many can be sent in a day. Each day's count is deleted after 2 days.
+
+Nothing else from Roadie goes with it: not your songs, gigs, contacts or anything else you've added.
+
+**How it travels and where it's kept:** your feedback goes to Roadie's own small server on **Cloudflare**, and is kept in a Cloudflare database that only we can read. Once a day, a summary of the day's notes (without screenshots) is emailed to us through **Resend** and arrives in our Gmail (**Google**). Feedback never goes to Anthropic, and doesn't need Roadie Assistant to be on.
+
+**Our legal basis** is our legitimate interest in testing and improving Roadie, which you choose to help with each time you tap Send. We use feedback only to fix and improve Roadie, and **delete it within 3 months of the beta ending**. To have yours deleted sooner, email us with the name you used.
+
+**Outside the EU:** Cloudflare, Resend and Google may handle it outside the EU, covered by the EU's Standard Contractual Clauses in each company's data processing terms, and the EU-US Data Privacy Framework where the company is certified.
+
 ## Testing with TestFlight
 
 If you're testing Roadie through Apple's TestFlight, Apple shares with us your name and email (as you gave them when invited), the build you're using, crash reports, and any feedback or screenshots you send through TestFlight. Apple's TestFlight terms and privacy policy cover this. We use it only to fix and improve Roadie, and delete it when the beta ends.
@@ -81,7 +102,7 @@ If you're testing Roadie through Apple's TestFlight, Apple shares with us your n
 
 - No adverts, and no advertising IDs.
 - No tracking across other apps or websites.
-- No analytics or crash-reporting services inside Roadie.
+- No analytics or crash-reporting services inside Roadie. (Beta feedback is something you choose to send, note by note.)
 - We never sell or share your information for marketing.
 
 ## Your rights
